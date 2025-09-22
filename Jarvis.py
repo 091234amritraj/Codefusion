@@ -183,8 +183,7 @@ def main():
     
     while True:
         try:
-            user_input = input("
-You: ").strip()
+            user_input = input("You: ").strip()
             
             if not user_input:
                 response = "I'm listening Sir. Please give me a command or question."
